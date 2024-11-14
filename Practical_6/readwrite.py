@@ -1,0 +1,5 @@
+f1 = open("temp.txt",'w+')
+f1.write("TEMP FILE")
+f1.seek(0)
+a=f1.read()
+print(a)
